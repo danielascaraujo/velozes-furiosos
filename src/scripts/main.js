@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    //Seção de atraçõs, programação de abas
+    //Seção de atrações, programação de abas
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function(botao) {
             const tabTarget = botao.target.dataset.tabButton;

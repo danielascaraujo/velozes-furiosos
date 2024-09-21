@@ -13,7 +13,7 @@
         transition: background-color 0.5s ease;
 
         .header {
-            &__logo, &__links__item:first-child {
+            &__logo, &__links__item:first-child, &__links__item:nth-child(2) {
                 opacity: 0;
                 visibility: hidden;
                 transition: opacity 0.5s ease;
